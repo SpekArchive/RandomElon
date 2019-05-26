@@ -13,34 +13,34 @@ $quote = $quotes[mt_rand(0, count($quotes))];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+
     <!-- Primary Meta Tags -->
     <title>Random Elon Musk — Generate and Share Your Favourite Elon Quotes
     </title>
     <meta name="title" content="Random Elon Musk — Generate and Share Your Favourite Elon Quotes">
     <meta name="description"
-        content="We love Elon Musk. We created a Random Elon Musk Quote Generator for you to share his wisdom and funny quotes.">
+        content="We love Elon Musk. We created a Random Elon Musk Quote Generator for you to share his wisdom and funny quotes. ">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://randomelon.peterthaleikis.com/">
+    <meta property="og:url" content="http://randomelon.peterthaleikis.com">
     <meta property="og:title" content="Random Elon Musk — Generate and Share Your Favourite Elon Quotes">
     <meta property="og:description"
-        content="We love Elon Musk. We created a Random Elon Musk Quote Generator for you to share his wisdom and funny quotes.">
-    <meta property="og:image"
-        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+        content="We love Elon Musk. We created a Random Elon Musk Quote Generator for you to share his wisdom and funny quotes. ">
+    <meta property="og:image" content="https://api.imageee.com/bold?text=Random%Elon%Musk%&bg_image=elon.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://randomelon.peterthaleikis.com/">
+    <meta property="twitter:url" content="http://randomelon.peterthaleikis.com">
     <meta property="twitter:title" content="Random Elon Musk — Generate and Share Your Favourite Elon Quotes
     ">
     <meta property="twitter:description"
-        content="We love Elon Musk. We created a Random Elon Musk Quote Generator for you to share his wisdom and funny quotes.">
-    <meta property="twitter:image"
-        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+        content="We love Elon Musk. We created a Random Elon Musk Quote Generator for you to share his wisdom and funny quotes. ">
+    <meta property="twitter:image" content="https://api.imageee.com/bold?text=Random%Elon%Musk%&bg_image=elon.jpg">
 
     <!-- Tailwind CSS -->
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
 </head>
 
 <body>
