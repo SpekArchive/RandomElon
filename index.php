@@ -71,7 +71,7 @@ $quote = $quotes[mt_rand(0, count($quotes))];
 
         </div>
 
-        <div class="bg-white opacity-50 rounded max-w-lg  shadow-lg  overflow-hidden text-center mt-5">
+        <div class="bg-white opacity-75 rounded max-w-lg  shadow-lg  overflow-hidden text-center mt-5">
             <div class="p-4 border-b">
                 Made with ♥️ by
                 <a href="https://github.com/thecookiemonsters" target="_blank" class="text-blue-600">The Cookie Monsters
