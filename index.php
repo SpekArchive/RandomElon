@@ -86,14 +86,20 @@ $quote = $quotes[mt_rand(0, count($quotes) - 1)];
 
         </div>
 
-        <div class="bg-white opacity-75 rounded max-w-lg  shadow-lg  overflow-hidden text-center mt-5">
-            <div class="p-4 border-b">
-                Made with ♥️ by
-                <a href="https://github.com/thecookiemonsters" target="_blank" class="text-blue-600">The Cookie Monsters
-                    🍪
-                </a>
+        <div class="absolute bottom-0 right-0 bg-gray-300 rounded-sm">
+            <div class="flex items-center justify-center px-3 py-3">
+                <p class="text-gray-700">
+                    Made with ♥️ by
+                    <a href="https://github.com/thecookiemonsters" target="_blank" class="text-blue-600">The Cookie
+                        Monsters
+                        🍪
+                    </a>-
+                    <a href="https://jesswallace.co/" target="_blank" class="text-blue-600">Jess Wallace </a> &amp;
+                    <a href="https://peterthaleikis.com" target="_blank" class="text-blue-600">
+                        Peter Thaleikis
+                    </a>
+                </p>
             </div>
-
         </div>
 
     </div>
