@@ -46,9 +46,19 @@ $quote = $quotes[mt_rand(0, count($quotes))];
 
 <body>
 
+    <!--Banner-->
+    <nav class="bg-gray-800 p-2 mt-0 fixed w-full z-10 top-0">
+        <div class="container mx-auto flex flex-wrap items-center">
+            <div class="flex w-full justify-center md:justify-center text-white font-extrabold">
+                Now live on&nbsp;<a href="https://www.producthunt.com/posts/random-elon" target="_blank" class="underline">ProductHunt</a>&nbsp;😺️&nbsp;🚀️&nbsp;😍️
+            </div>
+        </div>
+    </nav>
+
+
     <div class="flex flex-col items-center justify-center min-h-screen bg-gray-300 font-sans leading-normal"
         style="background:url('/elon-musk.jpg')">
-        <div class="bg-gray-100 rounded max-w-lg w-full shadow-lg  overflow-hidden">
+        <div class="bg-gray-100 rounded max-w-lg w-full shadow-lg overflow-hidden">
             <div class="p-4 border-b">
                 <p class="font-semibold text-lg mb-1 text-black">"<?php echo $quote ?>"</p>
                 <p class="text-grey-darker italic">&mdash; Elon Musk</p>
