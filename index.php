@@ -46,6 +46,11 @@ $quote = $quotes[mt_rand(0, count($quotes))];
 
 <body>
 
+    <script>
+    // reload on space bar
+    document.body.onkeyup = (e) => { if(e.keyCode == 32) { window.location.href = '/'; } }
+    </script>
+
     <!--Banner-->
     <nav class="bg-gray-800 p-2 mt-0 fixed w-full z-10 top-0">
         <div class="container mx-auto flex flex-wrap items-center">
