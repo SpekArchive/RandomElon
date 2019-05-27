@@ -7,8 +7,8 @@ $quote = $quotes[mt_rand(0, count($quotes))];
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -19,24 +19,25 @@ $quote = $quotes[mt_rand(0, count($quotes))];
     </title>
     <meta name="title" content="Random Elon Musk — Generate and Share Your Favourite Elon Quotes">
     <meta name="description"
-        content="We love Elon Musk. We created a Random Elon Musk Quote Generator for you to share his wisdom and funny quotes. ">
+        content="We love Elon Musk. We created a Random Elon Musk Quote Generator for you to share his wisdom and funny quotes.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://randomelon.peterthaleikis.com">
+    <meta property="og:url" content="https://randomelon.peterthaleikis.com">
     <meta property="og:title" content="Random Elon Musk — Generate and Share Your Favourite Elon Quotes">
     <meta property="og:description"
-        content="We love Elon Musk. We created a Random Elon Musk Quote Generator for you to share his wisdom and funny quotes. ">
-    <meta property="og:image" content="https://api.imageee.com/bold?text=Random%Elon%Musk%&bg_image=elon.jpg">
+        content="We love Elon Musk. We created a Random Elon Musk Quote Generator for you to share his wisdom and funny quotes.">
+    <meta property="og:image" content="https://api.imageee.com/bold?text=Random%20Elon%20Musk&bg_image=https://randomelon.peterthaleikis.com/elon-musk.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="http://randomelon.peterthaleikis.com">
+    <meta property="twitter:url" content="https://randomelon.peterthaleikis.com">
     <meta property="twitter:title" content="Random Elon Musk — Generate and Share Your Favourite Elon Quotes
     ">
-    <meta property="twitter:description"
-        content="We love Elon Musk. We created a Random Elon Musk Quote Generator for you to share his wisdom and funny quotes. ">
-    <meta property="twitter:image" content="https://api.imageee.com/bold?text=Random%Elon%Musk%&bg_image=elon.jpg">
+    <meta
+        property="twitter:description"
+        content="We love Elon Musk. We created a Random Elon Musk Quote Generator for you to share his wisdom and funny quotes.">
+    <meta property="twitter:image" content="https://api.imageee.com/bold?text=Random%20Elon%20Musk&bg_image=https://randomelon.peterthaleikis.com/elon-musk.jpg">
 
     <!-- Tailwind CSS -->
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
@@ -46,7 +47,7 @@ $quote = $quotes[mt_rand(0, count($quotes))];
 <body>
 
     <div class="flex flex-col items-center justify-center min-h-screen bg-gray-300 font-sans leading-normal"
-        style="background:url('/elon.jpg')">
+        style="background:url('/elon-musk.jpg')">
         <div class="bg-gray-100 rounded max-w-lg w-full shadow-lg  overflow-hidden">
             <div class="p-4 border-b">
                 <p class="font-semibold text-lg mb-1 text-black">"<?php echo $quote ?>"</p>
@@ -79,5 +80,4 @@ $quote = $quotes[mt_rand(0, count($quotes))];
     </div>
 
 </body>
-
 </html>
