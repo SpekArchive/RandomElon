@@ -2,7 +2,7 @@
 
 $quotes = json_decode(file_get_contents('data.json'), true);
 
-$quote = $quotes[mt_rand(0, count($quotes))];
+$quote = $quotes[mt_rand(0, count($quotes) - 1)];
 
 ?>
 <!DOCTYPE html>
