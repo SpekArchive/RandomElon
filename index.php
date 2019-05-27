@@ -78,7 +78,7 @@ $quote = $quotes[mt_rand(0, count($quotes) - 1)];
                 </button>
             </a>
 
-            <a href="https://twitter.com/intent/tweet?text=<?php echo urlencode($quote . "\n\n - @elonmusk via randomElon.peterthaleikis.com by @jesswallaceuk and @spekulatius1984"); ?>">
+            <a href="https://twitter.com/intent/tweet?text=<?php echo urlencode('"' . $quote . "\"\n\n -- @elonmusk via randomElon.peterthaleikis.com by @jesswallaceuk and @spekulatius1984"); ?>">
                 <button class="bg-blue-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                     <span>Tweet</span>
                 </button>
