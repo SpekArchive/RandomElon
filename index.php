@@ -51,7 +51,8 @@ $quote = $quotes[mt_rand(0, count($quotes) - 1)];
     document.body.onkeyup = (e) => { if(e.keyCode == 32) { window.location.href = '/'; } }
     </script>
 
-    <!--Banner-->
+    <!-- Banner-->
+    <!--
     <nav class="bg-gray-800 p-2 mt-0 fixed w-full z-10 top-0">
         <div class="container mx-auto flex flex-wrap items-center">
             <div class="flex w-full justify-center md:justify-center text-white font-extrabold">
@@ -59,10 +60,10 @@ $quote = $quotes[mt_rand(0, count($quotes) - 1)];
             </div>
         </div>
     </nav>
-
+    -->
 
     <div class="flex flex-col items-center justify-center min-h-screen bg-gray-300 font-sans leading-normal"
-        style="background:url('/elon-musk.jpg')">
+        style="background:url('/elon-musk.jpg'); background-size: cover; background-repeat: no-repeat;">
         <div class="bg-gray-100 rounded max-w-lg w-full shadow-lg overflow-hidden">
             <div class="p-4 border-b">
                 <p class="font-semibold text-lg mb-1 text-black">"<?php echo $quote ?>"</p>
