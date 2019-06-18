@@ -1,0 +1,11 @@
+{
+	"name": "thecookiemonsters/random-elon",
+	"description": "Fun project: Quote randomizer built in VanillaPHP, comes with Elon Musk quotes for the win.",
+	"require": {
+		"php": ">=7.1"
+	},
+	"config": {
+		"process-timeout": 900
+	},
+	"minimum-stability": "dev"
+}
